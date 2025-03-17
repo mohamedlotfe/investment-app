@@ -33,6 +33,16 @@ _(Insert demo GIF or video link below)_
 
 ![Demo GIF](https://example.com/path-to-demo.gif)
 
+## Features
+
+✅ Multi-currency support (USD/EUR/GBP)
+✅ Dynamic payment provider selection
+✅ Automatic retry (3 attempts with exponential backoff)
+✅ Secure data handling (HashUtil for sensitive data)
+✅ Swagger documentation at /api
+✅ Dockerized deployment
+✅ KYC verification endpoint
+
 ## Environment Variables
 
 To run this project, add the following environment variables to your `.env` file:
@@ -60,57 +70,42 @@ STRIPE_API_KEY=test_key
 PAYPAL_CLIENT_ID=test_id  
 PAYPAL_CLIENT_SECRET=test_secret
 
-## Features
-
-- Secure Authentication:  
-  JWT-based authentication to protect API endpoints.
-
-- Multi-Currency Support:  
-  Investment processing for USD, EUR, and GBP with hardcoded conversion rates (EUR: 1.08, GBP: 1.27).
-
-- Precision Financial Calculations:  
-  Utilizes Decimal.js for accurate currency and ROI calculations.
-
-- Dynamic Payment Gateway:  
-  Modular integration with payment providers (MOYASAR, Stripe, PayPal) with support for future providers via a common interface.
-
-- Robust Database Layer:  
-  Sequelize ORM integration with PostgreSQL, including proper model associations.
-
-- Dockerized Deployment:  
-  Easy setup and deployment using Docker and Docker Compose.
-
-- Extensible and Modular:  
-  Clean, modular architecture facilitates scalability and maintenance.
-
-- Comprehensive Testing:  
-  Unit tests with Jest ensure reliability and code quality.
-
 ## Installation and Setup
 
 1. Clone the Repository:
-```bash   git clone https://github.com/yourusername/multi-currency-investment-module.git  
+
+```bash git clone https://github.com/yourusername/multi-currency-investment-module.git
    cd multi-currency-investment-module
 ```
+
 2. Install Dependencies:
-```bash   npm install
+
+```bash
+  npm install
 ```
+
 3. Configure Environment Variables:
    Create a `.env` file in the root directory and add the required environment variables as shown above.
 
 4. Run the Application:
    For development:
-  ```bash npm run start:dev  
-  ```
-   For production:
- ```bash  npm run build  
+
+```bash
+   npm run start:dev
+```
+
+For production:
+
+```bash npm run build
    npm run start:prod
-   ```
+```
 
 5. Using Docker:
    Build and run the Docker container using Docker Compose:
-  ```bash docker-compose up --build
-  ```
+
+```bash
+  docker-compose up --build
+```
 
 ## Documentation
 
@@ -126,6 +121,7 @@ Authorization: Bearer <token>
 Content-Type: application/json
 
 Request Body Example:
+
 ```javascript
 {
 "amount": 10000,
@@ -134,7 +130,9 @@ Request Body Example:
 "providerName": "MOYASAR"
 }
 ```
+
 Successful Response:
+
 ```javascript
 {
 "transactionId": "TRX-12345",
@@ -145,6 +143,7 @@ Successful Response:
 "maturityDate": "2025-06-01"
 }
 ```
+
 ### Verify Payment
 
 GET /payments/{paymentId}  

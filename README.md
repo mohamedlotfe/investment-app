@@ -37,7 +37,7 @@ This architecture ensures a clean separation of concerns and facilitates future 
 
 ## Demo
 
-[View Demo](https://demo.example.com)  
+[View Demo](https://app.screencastify.com/v3/watch/0lFbsSZD9Azac3IRlGt7)  
 _(Insert demo GIF or video link below)_
 
 ![Demo GIF](https://github.com/mohamedlotfe/investment-app/blob/master/public/imagess.png)

@@ -29,6 +29,10 @@ The project follows a modular design using NestJS. Key components include:
   Unit tests are written using Jest to cover core business logic and API endpoints.
 
 This architecture ensures a clean separation of concerns and facilitates future scalability and maintenance.
+<div align="center">
+  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+</div>
+
 
 ## Demo
 

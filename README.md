@@ -35,13 +35,13 @@ _(Insert demo GIF or video link below)_
 
 ## Features
 
-✅ Multi-currency support (USD/EUR/GBP)
-✅ Dynamic payment provider selection
-✅ Automatic retry (3 attempts with exponential backoff)
-✅ Secure data handling (HashUtil for sensitive data)
-✅ Swagger documentation at /api
-✅ Dockerized deployment
-✅ KYC verification endpoint
+- ✅ Multi-currency support (USD/EUR/GBP)
+- ✅ Dynamic payment provider selection
+- ✅ Automatic retry (3 attempts with exponential backoff)
+- ✅ Secure data handling (HashUtil for sensitive data)
+- ✅ Swagger documentation at /api
+- ✅ Dockerized deployment
+- ✅ KYC verification endpoint
 
 ## Environment Variables
 

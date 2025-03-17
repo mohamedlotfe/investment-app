@@ -141,7 +141,7 @@ export class InvestmentService {
       projectedValue,
       maturityDate: transaction.maturityDate.toISOString().split('T')[0],
       status: transaction.status,
-      paymentId: transaction.payment.id.toString(),
+      paymentId: transaction?.payment?.id?.toString(),
     };
   }
 }

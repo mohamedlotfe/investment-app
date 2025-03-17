@@ -31,6 +31,7 @@ The project follows a modular design using NestJS. Key components include:
 This architecture ensures a clean separation of concerns and facilitates future scalability and maintenance.
 <div align="center">
   <img height="200" src="https://github.com/mohamedlotfe/investment-app/blob/master/public/image.png"  />
+  <img height="200" src="https://github.com/mohamedlotfe/investment-app/blob/master/public/Screenshot%202025-03-17%20165003.png"  />
 </div>
 
 

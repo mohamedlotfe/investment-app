@@ -30,7 +30,7 @@ The project follows a modular design using NestJS. Key components include:
 
 This architecture ensures a clean separation of concerns and facilitates future scalability and maintenance.
 <div align="center">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="https://github.com/mohamedlotfe/investment-app/blob/master/public/image.png"  />
 </div>
 
 
@@ -39,7 +39,7 @@ This architecture ensures a clean separation of concerns and facilitates future 
 [View Demo](https://demo.example.com)  
 _(Insert demo GIF or video link below)_
 
-![Demo GIF](https://example.com/path-to-demo.gif)
+![Demo GIF](https://github.com/mohamedlotfe/investment-app/blob/master/public/imagess.png)
 
 ## Features
 

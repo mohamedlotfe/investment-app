@@ -1,6 +1,10 @@
 # Multi-Currency Investment Module
-
-A secure multi-currency investment module built with NestJS, TypeScript, Sequelize, and other robust technologies. This project simulates real-world financial operations including currency conversion, ROI calculation, and dynamic payment gateway integration. It emphasizes precision, security, and scalability.
+NestJS-based investment module supporting multi-currency transactions with:
+- Dynamic payment provider integration (Moyasar/Stripe/PayPal)
+- Automatic retry with exponential backoff
+- Secure authentication and data handling
+- Precise financial calculations using Decimal.js
+- Full Swagger documentation
 
 ## Architecture Overview
 
@@ -42,6 +46,12 @@ _(Insert demo GIF or video link below)_
 - ✅ Swagger documentation at /api
 - ✅ Dockerized deployment
 - ✅ KYC verification endpoint
+## Dependencies
+- NestJS 9.x
+- PostgreSQL 13.x
+- Swagger 6.x
+- class-validator 0.14.x
+- Decimal.js 10.x
 
 ## Environment Variables
 
